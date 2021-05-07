@@ -561,9 +561,9 @@ tag칸에 1이 추가되었음을 알 수 있다. 여기를 들어가보면 1.0.
 
 또 사용할 것 같은 옵션으로는 -a, -m 옵션이 있다. 이 옵션은 annotated 태그에 관한 옵션이다. 지금 우리가 다룬 tag는 lightweight tag, 즉 가벼운 태그이다. 이 태그는 간단한 정보만 담을 수 있다. 그에 반해서 많은 정보들을 담을 수 있는 태그도 있다. annotated tag라고도 하는데 이 태그를 이용하면 여러 정보들을 담을 수 있다. `git tag -a 1.0.0 -m "태그에 관한 설명"` 이런 식으로 사용을 할 수 있고, `git tag -v 1.0.0`을 통해서 그 자세한 정보를 확인할 수 있다. 학생 입장에서는 이런 annotated 태그 보다는 주로 lightweight 태그를 많이 사용할 것 같다.
 
-| 명령어                                                   |                                                             |                                                                            |                                                        |
+| 명령어/사용여부(O,X)                                                   |                                                             |                                                                            |                                                        |
 | -------------------------------------------------------- | ----------------------------------------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------ |
-| [config](#git-설정하기--config)                         | [init](#git-시작하기--init)                                | [add](#Staging-area로-보내기--git-add)                                    | [status](#파일의-현재-상태-확인하기--status)          |
-| [commit](#Git-directory로-올리기--git-commit)           | [log](#커밋-로그-확인하기--git-log)                        | [reset](#파일을-이전-상태로-되돌리기--git-reset---hard)                   | [branch](#또-다른-작업-환경-만들기--branch-checkout) |
-| [checkout](#또-다른-작업-환경-만들기--branch-checkout) | [merge](#병합하기--merge)                                  | [rebase](#베이스를-다시-설정하자--rebase)                                 | [remote](#원격-저장소를-추가하자--remote)             |
-| [push](#내가-만든-파일을-github에-올려보자--push)       | [pull](#원격-저장소에서-로컬-저장소로-파일-불러오기--pull) | [clone](#다른-폴더-다른-기기에서도-원격-저장소-내용들을-불러오자--clone) | [tag](#커밋에-이름을-달아보자--tag)                   |
+| [config](#git-설정하기--config)/O                         | [init](#git-시작하기--init)/O                                | [add](#Staging-area로-보내기--git-add)/O                                    | [status](#파일의-현재-상태-확인하기--status)/O          |
+| [commit](#Git-directory로-올리기--git-commit)/O           | [log](#커밋-로그-확인하기--git-log)/O                        | [reset](#파일을-이전-상태로-되돌리기--git-reset---hard)/O                   | [branch](#또-다른-작업-환경-만들기--branch-checkout)/O |
+| [checkout](#또-다른-작업-환경-만들기--branch-checkout)/O | [merge](#병합하기--merge)/O                                  | [rebase](#베이스를-다시-설정하자--rebase)/O                                 | [remote](#원격-저장소를-추가하자--remote)/O             |
+| [push](#내가-만든-파일을-github에-올려보자--push)/O       | [pull](#원격-저장소에서-로컬-저장소로-파일-불러오기--pull)/O | [clone](#다른-폴더-다른-기기에서도-원격-저장소-내용들을-불러오자--clone)/O | [tag](#커밋에-이름을-달아보자--tag)/O                   |
