@@ -563,7 +563,7 @@ tag칸에 1이 추가되었음을 알 수 있다. 여기를 들어가보면 1.0.
 
 | 명령어                                                   |                                                             |                                                                            |                                                        |
 | -------------------------------------------------------- | ----------------------------------------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------ |
-| [config](#https://github.com/codejoo9098/Git-GitHub/blob/main/README.md#git-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0--config)                         | [init](#git-시작하기-:-init)                                | [add](#Staging-area로-보내기-:-git-add)                                    | [status](#파일의-현재-상태-확인하기-:-status)          |
+| [config](#설정하기)                         | [init](#git-시작하기-:-init)                                | [add](#Staging-area로-보내기-:-git-add)                                    | [status](#파일의-현재-상태-확인하기-:-status)          |
 | [commit](#Git-directory로-올리기-:-git-commit)           | [log](#커밋-로그-확인하기-:-git-log)                        | [reset](#파일을-이전-상태로-되돌리기-:-git-reset---hard)                   | [branch](#또-다른-작업-환경-만들기-:-branch,-checkout) |
 | [checkout](#또-다른-작업-환경-만들기-:-branch,-checkout) | [merge](#병합하기-:-merge)                                  | [rebase](#베이스를-다시-설정하자-:-rebase)                                 | [remote](#원격-저장소를-추가하자-:-remote)             |
 | [push](#내가-만든-파일을-github에-올려보자-:-push)       | [pull](#원격-저장소에서-로컬-저장소로-파일-불러오기-:-pull) | [clone](#다른-폴더,-다른-기기에서도-원격-저장소-내용들을-불러오자-:-clone) | [tag](#커밋에-이름을-달아보자-:-tag)                   |
